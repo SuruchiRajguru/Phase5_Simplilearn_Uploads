@@ -1,0 +1,4 @@
+# Created at 2021-07-20T17:42:02.958
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Suruchi Rajguru\Simplilearn\Phase5\4thJuly2021\Simplilearn_Maven\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

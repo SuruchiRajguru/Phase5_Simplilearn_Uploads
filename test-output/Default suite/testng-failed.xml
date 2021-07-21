@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="testNGExamples.BaseClass">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeGroup"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testNGExamples.BaseClass -->
+      <class name="testNGExamples.Testcase2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNGExamples.Testcase2 -->
+      <class name="testNGExamples.Testcase1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNGExamples.Testcase1 -->
+      <class name="test.LoginTest">
+        <methods>
+          <include name="Testcase1"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Banking app Testcases" duration-ms="12703" started-at="2021-07-20T18:48:57Z" finished-at="2021-07-20T18:49:10Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="Testcase2.InsuranceTest()[pri:0, instance:testNGExamples.Testcase2@223f3642]" name="InsuranceTest" class="testNGExamples.Testcase2"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="RegressionTest" duration-ms="12703" started-at="2021-07-20T18:48:57Z" finished-at="2021-07-20T18:49:10Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:test.LoginTest@5db250b4]" name="SetUp" is-config="true" duration-ms="5766" started-at="2021-07-20T18:48:57Z" finished-at="2021-07-20T18:49:03Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Testcase1(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@5db250b4]" name="Testcase1" duration-ms="6240" started-at="2021-07-20T18:49:03Z" finished-at="2021-07-20T18:49:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- Testcase1 -->
+        <test-method status="PASS" signature="Cleanup()[pri:0, instance:test.LoginTest@5db250b4]" name="Cleanup" is-config="true" duration-ms="672" started-at="2021-07-20T18:49:09Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- Cleanup -->
+      </class> <!-- test.LoginTest -->
+      <class name="testNGExamples.Testcase2">
+        <test-method status="PASS" signature="InsuranceTest()[pri:0, instance:testNGExamples.Testcase2@223f3642]" name="InsuranceTest" duration-ms="2" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- InsuranceTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExamples.Testcase2@223f3642]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExamples.Testcase2@223f3642]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExamples.Testcase2@223f3642]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoanTest2()[pri:0, instance:testNGExamples.Testcase2@223f3642]" name="LoanTest2" duration-ms="1" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- LoanTest2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExamples.Testcase2@223f3642]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGExamples.Testcase2 -->
+      <class name="testNGExamples.Testcase1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="beforeTest" is-config="true" duration-ms="4" started-at="2021-07-20T18:48:57Z" finished-at="2021-07-20T18:48:57Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeGroup()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="beforeGroup" is-config="true" duration-ms="1" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- beforeGroup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoanTest()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="LoanTest" duration-ms="1" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- LoanTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoanTest1()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="LoanTest1" duration-ms="1" started-at="2021-07-20T18:49:10Z" depends-on-methods="testNGExamples.Testcase1.LoanTest" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- LoanTest1 -->
+        <test-method status="PASS" signature="CreditCardTest()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="CreditCardTest" duration-ms="1" started-at="2021-07-20T18:49:10Z" depends-on-methods="testNGExamples.Testcase1.LoanTest1" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- CreditCardTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNGExamples.Testcase1@2fd6b6c7]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-07-20T18:49:10Z" finished-at="2021-07-20T18:49:10Z">
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGExamples.Testcase1 -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Banking app Testcases -->
+</testng-results>
